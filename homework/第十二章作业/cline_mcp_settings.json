@@ -1,0 +1,31 @@
+{
+  "mcpServers": {
+    "weather": {
+      "disabled": false,
+      "timeout": 30,
+      "type": "stdio",
+      "command": "C:\\Users\\HanPeiyi\\.local\\bin\\uv.exe",
+      "args": [
+        "--directory",
+        "C:\\Users\\HanPeiyi\\OneDrive - Unisys\\Study\\MCP\\weather",
+        "run",
+        "weather.py"
+      ]
+    },
+    "mcp_tool": {
+      "type": "sse",
+      "url": "https://mcp.api-inference.modelscope.net/df3df5905ecd41/sse",
+      "timeout": 30
+    },
+    "12306-mcp": {
+      "timeout": 30,
+      "type": "sse",
+      "url": "https://mcp.api-inference.modelscope.net/91c61d89b9394a/sse"
+    },
+    "amap-maps": {
+      "timeout": 30,
+      "type": "sse",
+      "url": "https://mcp.api-inference.modelscope.net/68b531eed2bc43/sse"
+    }
+  }
+}
